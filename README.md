@@ -19,8 +19,16 @@ Task:
 tidydata.out is a tidy data set following the rules described above.
 readin R with:
 ```
-read.table("tidydata.out")
+tidydata<-read.table("tidydata.out", header=TRUE)
 ```
+This will make syntactically valid names: it will put dots where there were parenthesis and hyphens in the header.
+
+alternatively, 
+```
+tidydata<-read.table("tidydata.out")
+```
+will not keep the row names intact, but leave them in the first row instead of as a header.
+
 CodeBook.md explains how the script works and describes the variables in tidydata.out
 run_analysis.R contains the script
 
