@@ -12,9 +12,10 @@
 #from the Samsung Galaxy S smartphone
 #The data linked to from the course website represent data collected
 #from the accelerometers from the Samsung Galaxy S smartphone.
+#
+#run_analysis() to run the script.
 
 
-#To 
 run_analysis<-function(){
   library(dplyr)
   
