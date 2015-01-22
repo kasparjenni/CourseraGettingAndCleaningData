@@ -18,14 +18,17 @@ Task:
 
 tidydata.out is a tidy data set following the rules described above.
 readin R with:
->read.table("tidydata.out")
+'''
+read.table("tidydata.out")
+'''
 CodeBook.md explains how the script works and describes the variables in tidydata.out
 run_analysis.R contains the script
 
 to launch it in R:
-> source("run_analysis.R")
-> run_analysis()
-
+'''
+source("run_analysis.R")
+run_analysis()
+'''
 ### Grading
 
 This assignment will be graded via peer assessment.
